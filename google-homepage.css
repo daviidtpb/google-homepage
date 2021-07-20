@@ -1,17 +1,17 @@
-.PicCenter {
-    display: block;
-    margin: 0 auto;
-    margin-top: 300px;
-}
-
-body{
+*
+{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif
 }
 
-.search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+section
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
